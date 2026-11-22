@@ -1,0 +1,17 @@
+{
+  "name": "toolbridge",
+  "version": "0.1.0",
+  "description": "Convert AI tool / function-calling definitions between Anthropic, OpenAI, Gemini and MCP. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "tool-calling", "function-calling", "anthropic", "openai", "gemini", "json-schema", "ai-agents"],
+  "license": "MIT"
+}
